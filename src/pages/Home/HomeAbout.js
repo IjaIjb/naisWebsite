@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import house from "../../assets/IMG-20230826-WA0040_104720.jpg";
+import house from "../../assets/WhatsApp Image 2023-10-07 at 10.22.12.jpeg";
 
 const HomeAbout = () => {
   return (

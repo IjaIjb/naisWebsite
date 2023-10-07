@@ -4,7 +4,7 @@ import { RiArrowDropDownLine, RiArrowUpSLine } from "react-icons/ri";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSun } from "react-icons/bi";
-import logo from "../../assets/Webp.net-resizeimage.png";
+import logo from "../../assets/WhatsApp Image 2023-10-07 at 13.05.29.jpeg";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
@@ -26,7 +26,7 @@ const Head = () => {
 
   return (
     <div className="relative  w-full">
-      <div className="md:hidden sticky  w-full block">
+      <div className="md:hidden   w-full block">
         <div className="bg-white w-full  px-5 ">
           <div className="flex justify-between w-full items-center py-2">
             <AiOutlineSearch className="w-6 h-6 " />
@@ -47,10 +47,21 @@ const Head = () => {
           className={
             !menu
               ? "hidden"
-              : "absolute grid  z-40 py-5 w-full dark:bg-my-dark bg-[#f5f7f8] md:hidden px-8"
+              : "absolute  z-40 py-5 w-full dark:bg-my-dark bg-[#f5f7f8] md:hidden px-8"
           }
         >
-          ''''fhhhhhhhhhhhhhhh
+           <div className="flex flex-col gap-4 pt-4">
+           <Link to='/' className="text-gray-600  px-[15px] text-[15px]">
+                  Home
+                </Link>
+                <Link to='/about' className="cursor-pointer text-gray-600  px-[15px] text-[15px]">
+                  About
+                </Link>
+                <Link to='/commandant' className="text-gray-600  px-[15px] text-[15px]">
+                  Commandant
+                </Link>
+        
+          </div>
         </ul>
       </div>
       {/* <div className="overlay absolute inset-0 h-screen bg-black opacity-70"></div> */}
