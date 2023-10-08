@@ -15,17 +15,17 @@ const Latest = () => {
 <div className='grid md:grid-cols-3 gap-[30px]'>
 <div>
 <img className="w-full mb-5" src={house3} alt="/" />
-<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NDC Signs Partnership Agreement with Rana Energy, Targets 18500 Megawatts of Clean Energy for 5,000 Homes, 1000 Jobs</a>
+<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NAIS Signs Partnership Agreement with Rana Energy, Targets 18500 Megawatts of Clean Energy for 5,000 Homes, 1000 Jobs</a>
 </div>
 
 <div>
 <img className="w-full mb-5" src={white} alt="/" />
-<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NDC Graduates 113 Participants</a>
+<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NAIS Graduates 113 Participants</a>
 </div>                   
 
 <div>
 <img className="w-full mb-5" src={white1} alt="/" />
-<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NDC Signs Partnership Agreement with Rana Energy, Targets 18500 Megawatts of Clean Energy for 5,000 Homes, 1000 Jobs</a>
+<a href='' className='text-white text-[16px]  font-[400] hover:underline' >NAIS Signs Partnership Agreement with Rana Energy, Targets 18500 Megawatts of Clean Energy for 5,000 Homes, 1000 Jobs</a>
 </div>
 </div>
  

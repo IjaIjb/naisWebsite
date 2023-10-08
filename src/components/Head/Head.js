@@ -12,7 +12,7 @@ import { PiEnvelopeThin } from "react-icons/pi";
 import { CiLocationOn } from "react-icons/ci";
 import army from "../../assets/ndc-color-scheme.png";
 import { Link } from "react-router-dom";
-
+ 
 const Head = () => {
   const [CategoriesMenu, setCategoriesMenu] = useState(false);
   const [menu, setMenu] = useState(false);
@@ -176,9 +176,7 @@ const Head = () => {
                 <div className="text-white py-[10px] px-[15px] text-[15px]">
                   Faculty
                 </div>
-                <div className="text-white py-[10px] px-[15px] text-[15px]">
-                  CSRS
-                </div>
+              
                 <div className="text-white py-[10px] px-[15px] text-[15px]">
                   News
                 </div>
@@ -188,12 +186,7 @@ const Head = () => {
                 <div className="text-white py-[10px] px-[15px] text-[15px]">
                   Gallery
                 </div>
-                <div className="text-white py-[10px] px-[15px] text-[15px]">
-                  NDC Intranet
-                </div>
-                <div className="text-white py-[10px] px-[15px] text-[15px]">
-                  Links
-                </div>
+              
                 <div className="text-white py-[10px] px-[15px] text-[15px]">
                   Contact Us
                 </div>

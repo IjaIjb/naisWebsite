@@ -5,7 +5,7 @@ import com from '../../assets/IMG-20230808-WA0000_105656.jpg'
 const CollegeLead = () => {
   return (
     <div>
-      <div className="bg-[#f4f4f4] pt-[70px] px-[45px] pb-[140px] ">
+      <div className="bg-[#f4f4f4] pt-[70px] px-[30px] md:px-[45px] pb-[140px] ">
         <div className="flex justify-center text-center mb-9">
           <div>
             <h4 className="text-[#242e64] text-[32px] font-[600]  ">
@@ -24,18 +24,14 @@ const CollegeLead = () => {
         <img className='w-[400px] h-[400px] ' src={com} />
 
             </div>
-            <div className=" py-[45px] px-[55px] max-w-[680px]">
+            <div className=" py-[45px] md:px-[55px] px-5 max-w-[680px]">
               <h3 className="text-[#242e64] text-[16px] pb-5  font-[600]  ">
               Brig Gen KN Nwoko  –
                 Commandant
               </h3>
 
               <h3 className="text-[#626262] text-[16px] pb-5  font-[400]  ">
-              The Nigerian Army Intelligence School (NAIS) has been at the forefront
-          of providing specialized training in intelligence and security-related
-          subjects since its establishment in April 1973. Originally known as
-          the Nigerian Army School of Intelligence (NASI) and located at Tego
-          Barracks, Apapa, the school.…{" "}
+              <b>Brig Gen Kingsley Nwanne Nwoko</b> was born in Kaduna state and from Delta state, Aniocha North Local Government Area, He attended KLG Primary School Kaduna in 1979-1985 where he got his First School Leaving Certificate, He got his West African Examination Council Senior Secondary Certificate from Kaduna Capital School, Kaduna State 1985-1991.…{" "}
                 <Link to='/commandant' className="text-[#a7a9b8] ">
                   Read More
                 </Link>
