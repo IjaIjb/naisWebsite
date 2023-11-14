@@ -27,7 +27,7 @@ const Head = () => {
   return (
     <div className="relative  w-full">
       <div className="md:hidden   w-full block">
-        <div className="bg-white w-full  px-5 ">
+        <div className="bg-white w-full  ">
           <div className="flex justify-between w-full items-center py-2">
             <AiOutlineSearch className="w-6 h-6 " />
 
@@ -66,24 +66,66 @@ const Head = () => {
       </div>
       {/* <div className="overlay absolute inset-0 h-screen bg-black opacity-70"></div> */}
 
-      <div className="hidden sticky  w-full md:block">
-        <div className="md:px-10">
-          <div className="bg-white  w-full">
-            <div className=" hidden md:flex w-full border-b items-center justify-end ">
+      <div className="hidden   w-full md:block">
+        <div className="">
+          <div className="bg-[#166432]  w-full">
+            {/* <div className=" hidden md:flex w-full border-b items-center justify-end ">
               <div className="flex gap-[25px] items-center  py-[10px] px-[15px] ">
                 <a    target="_blank" href="mailto:hq.nais@army.mil.ng" className="text-[#252525] text-[14px] font-sans">
                   Webmail
                 </a>
-                {/* <a href="" className="text-[#252525] text-[14px] font-sans">
-                  <FaFacebookSquare />
-                </a> */}
               </div>
-            </div>
-            <div className="md:flex hidden justify-between items-center py-[5px] px-[15px]">
+            </div> */}
+            <div className="flex justify-center">
+            <div className="w-full md:max-w-[1000px] ">
+
+           
+            <div className="md:flex w-full hidden justify-between items-center py-[5px] px-[15px]">
+            
               <div className="py-[11px]">
                 <img className="w-16 h-16" src={logo} alt="/" />
               </div>
-              <div className="flex  gap-[25px]">
+              {/* <div className="flex  w-full items-center"> */}
+              <div className="flex items-center">
+                {/* <Link to='/' className="text-white  py-[10px] px-[15px] text-[15px]">
+                  Home
+                </Link>
+                <div className="text-white ">|</div> */}
+             
+                <Link to='/about' className="cursor-pointer text-white py-[10px] px-[15px] text-[15px]">
+               ABOUT
+              
+                </Link>
+                <div className="text-white ">|</div>
+                <Link to='/commandant' className="text-white  py-[10px] px-[15px] text-[15px]">
+                  COMMAND
+                </Link>
+                <div className="text-white ">|</div>
+                <div className="text-white  py-[10px] px-[15px] text-[15px]">
+                  NEWS
+                </div>
+                <div className="text-white ">|</div>
+                <div className="text-white  py-[10px] px-[15px] text-[15px]">
+               GALLERY
+                </div>
+                <div className="text-white ">|</div>
+                <div className="text-white py-[10px] px-[15px] text-[15px]">
+                  CONTACT US
+                </div>
+                <div className="text-white py-[6px] px-[20px] rounded-[30px] bg-[#C75F0A]">
+                  E-LIBRARY
+                </div>
+             
+              {/* </div> */}
+
+              {/* <div className="flex justify-end gap-3 items-center">
+                <button className="py-[0.85em] ml-[15px] px-[1.5em] rounded-[50em] text-[13px] text-white hover:bg-[#337ab7] hover:shadow-lg border-[1px] border-[#ffffff21] ">
+                  Download
+                </button>
+                <AiOutlineSearch className="w-6 h-6 text-white" />
+              </div> */}
+            </div>
+              {/* <div className="flex  gap-[25px]">
                 <div className="flex items-center gap-3 py-[10px]">
                   <div>
                     <BsTelephone className="w-8 h-8 text-[#7a263f]" />
@@ -108,26 +150,6 @@ const Head = () => {
                     </h4>
                   </div>
                 </div>
-                {/* <div className="flex items-center">
-                  <div className="w-[1px] mr-[7px] my-[17px] bg-[#e4e4e4] "></div>
-                  <div className="flex items-center gap-3  ml-4 py-[10px]">
-                    <div>
-                      <PiEnvelopeThin className="w-10 h-10 text-[#7a263f]" />
-                    </div>
-                    <div className="flex flex-col ">
-                      <a
-                        href="mailto:hq.nais@army.mil.ng"
-                        target="_blank"
-                        className="text-[#0e305d] text-[15px] font-[700] "
-                      >
-                        hq.nais@army.mil.ng
-                      </a>
-                      <h4 className="text-[#686d84] text-[14px] ">
-                        Contact Us
-                      </h4>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="flex">
                   <div className="w-[1px] mr-[7px] my-[17px] bg-[#e4e4e4] "></div>
@@ -148,14 +170,13 @@ const Head = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
+            </div>
+            </div>
             </div>
           </div>
         </div>
-        <div className="md:block hidden md:px-10 w-full">
-          <img className="w-full" src={army} alt="/" />
-        </div>
-        <div className="md:px-10">
+        {/* <div className="">
           <div className="md:flex hidden  w-full bg-[#283f68] py-[10px] px-[15px] ">
             <div className="flex justify-between w-full items-center">
               <div className="flex w-full">
@@ -192,15 +213,9 @@ const Head = () => {
                 </div>
               </div>
 
-              {/* <div className="flex justify-end gap-3 items-center">
-                <button className="py-[0.85em] ml-[15px] px-[1.5em] rounded-[50em] text-[13px] text-white hover:bg-[#337ab7] hover:shadow-lg border-[1px] border-[#ffffff21] ">
-                  Download
-                </button>
-                <AiOutlineSearch className="w-6 h-6 text-white" />
-              </div> */}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

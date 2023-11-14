@@ -10,40 +10,54 @@ import CollegeLead from "./CollegeLead";
 import Footer from "./Footer";
 import HomeHero from "./HomeHero";
 import Head from "../../components/Head/Head";
+import HeroDown from "./HeroDown";
+import MissionStatement from "./MissionStatement";
+import CollegeDocumentary from "./CollegeDocumentary";
 
 const Home = () => {
   return (
     <div>
-      <div className="mx-auto w-full">
-        <div className="h-full w-full md:bg-gray-200">
-          <div className="flex w-full h-full justify-center">
-            <div className=" w-full md:max-w-[1500px] ">
+      <div className="">
+        <div className="">
+      
               <div className="flex ">
                 <div className="w-full">
                   <Head />
                   {/* <div className="block md:hidden sticky ">
 <Head />
                 </div> */}
-                  <div className="w-full md:px-10">
+                  <div className="w-full ">
                     <HomeHero />
                   </div>
-                  <div className="px-5 md:px-10">
-                    <HomeAbout />
-                  </div>
-                  <div className="md:px-10">
+                  {/* <div className="w-full">
+                    <HeroDown />
+                  </div> */}
+                  <CollegeLead />
+                  <div className="bg-[#F0FBFF] pt-16">
+<MissionStatement />
+<div className="px-5">
+<CollegeDocumentary />
+</div>
+<div className="py-4 bg-white w-full"></div>
+<div className="">
                     <Latest />
                   </div>
+<HoverCurriculum />
+                  </div>
+                  {/* <div className="px-5 md:px-10">
+                    <HomeAbout />
+                  </div> */}
+              
 
-                  <div className="md:px-10">
-                    <HoverCurriculum />
+                  <div className="">
+                   
                     <CollegeLead />
                   </div>
-                  <div className="md:px-10">
+                  <div className="">
                     <Footer />
                   </div>
                 </div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>

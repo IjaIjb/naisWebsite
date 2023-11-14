@@ -6,7 +6,9 @@ import { BsYoutube } from "react-icons/bs";
 const HoverCurriculum = () => {
   return (
     <div>
-      <div className="bg-white pt-[100px] pb-[70px] px-[30px]">
+             <div className="flex justify-center">
+          <div className="w-full md:max-w-[1000px] ">
+      <div className=" pt-[100px] pb-[70px] md:px-0 px-[30px]">
         <div className="grid w-full md:grid-cols-3 gap-[30px] ">
           <div className="bg-white h-[250px] w-full rounded-lg flex justify-center items-center text-center shadow-2xl">
             <div>
@@ -44,6 +46,8 @@ const HoverCurriculum = () => {
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );

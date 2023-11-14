@@ -30,25 +30,24 @@ const HomeHero = () => {
   };
   return (
     <div>
-      <div className="w-full">
-        <Carousel
+      <div className="w-full relative  ">
+        {/* <Carousel
           swipeable={true}
           draggable={true}
           rtl={true}
-          // autoPlay={true}
           showDots={true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
-          // autoPlaySpeed={1500}
-          // customTransition="all 20s linear"
           keyBoardControl={true}
           transitionDuration={5000}
           containerclassName="carousel-container"
           removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
           dotListclassName="custom-dot-list-style"
           itemclassName="carousel-item-padding-40-px"
-        >
+        > */}
+                      {/* <div className="absolute  object-cover w-full h-full"> */}
+        
           <div className="w-full relative z-10 h-screen  overflow-hidden ">
             <div className="absolute z-10 object-cover w-full h-full">
               <img
@@ -56,38 +55,43 @@ const HomeHero = () => {
                 src={house}
                 alt="/"
               />
-              <div className="overlay absolute inset-0 bg-black opacity-30"></div>
+              <div className="overlay absolute inset-0 bg-[#61CE70] opacity-40"></div>
             </div>
             <div className="flex relative z-20 h-full w-full items-center ">
               <div className="md:pl-20 pl-5 pb-20 w-full">
-                <div className="flex gap-[40px] w-full justify-start items-center">
-                  <div className="text-left w-full">
+                <div className="flex gap-[40px] w-full text-center justify-center items-center">
+                  <div className=" w-full">
                     <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">
                       Nigerian Army Intelligence School-Tego Barracks, Apapa,
                       Lagos
                     </h2>
 
-                    <div className=" gap-[12px] text-left w-full pt-6 text-white">
-                      <h4 className="text-[16px] md:text-[20px] font-[400]">
-                        One of our key objectives is to study the socio-economic
-                        and political <br /> environment of Nigeria and its
-                        impacts on national security and <br /> development
-                      </h4>
-                    </div>
-                    <div className="text-left w-full mt-6">
-                      <a
+                    <div className=" w-full mt-6 ">
+                      {/* <div className="flex text-center items-center  justify-center"> */}
+                    {/* </div> */}
+                    {/* <div className="flex justify-center text-center items-center text-white py-[1px] max-w-[200px] bg-white"></div> */}
+                      <div className="flex justify-center">
+                        
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">KNOWLEDGE</h2>
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600] border-x">DEDICATION</h2>
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">SERVICE</h2>
+
+                      </div>
+                      {/* <a
                         href=""
                         className="bg-[#7a263f] hover:bg-white hover:text-black text-white rounded-[3px] text-[13px]  md:text-[17px] font-[500] py-[10px] md:py-[18px] px-[20px] md:px-[35px] text-left w-fit"
                       >
                         Learn more
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          {/* <div className="overlay absolute inset-0 bg-black opacity-70"></div> */}
+{/* </div> */}
+{/* 
 
           <div className="w-full relative z-10 h-screen  overflow-hidden ">
             <div className="absolute z-10 object-cover w-full h-full">
@@ -244,11 +248,6 @@ const HomeHero = () => {
               </div>
             </div>
           </div>
-          {/* <div className="">
-               
-                  <img className="h-screen w-full" src={house1} alt="/" />
-
-                </div> */}
           <div className="w-full relative z-10 h-screen  overflow-hidden ">
             <div className="absolute z-10 object-cover w-full h-full">
               <img
@@ -287,9 +286,6 @@ const HomeHero = () => {
               </div>
             </div>
           </div>
-
-
-
           <div className="w-full relative z-10 h-screen  overflow-hidden ">
             <div className="absolute z-10 object-cover w-full h-full">
               <img
@@ -327,8 +323,8 @@ const HomeHero = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </Carousel>
+          </div> */}
+        {/* </Carousel> */}
       </div>
     </div>
   );
