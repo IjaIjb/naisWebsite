@@ -19,45 +19,41 @@ const Home = () => {
     <div>
       <div className="">
         <div className="">
-      
-              <div className="flex ">
-                <div className="w-full">
-                  <Head />
-                  {/* <div className="block md:hidden sticky ">
+          <div className="flex ">
+            <div className="w-full">
+              <Head />
+              {/* <div className="block md:hidden sticky ">
 <Head />
                 </div> */}
-                  <div className="w-full ">
-                    <HomeHero />
-                  </div>
-                  {/* <div className="w-full">
-                    <HeroDown />
-                  </div> */}
-                  <CollegeLead />
-                  <div className="bg-[#F0FBFF] pt-16">
-<MissionStatement />
-<div className="px-5">
-<CollegeDocumentary />
-</div>
-<div className="py-4 bg-white w-full"></div>
-<div className="">
-                    <Latest />
-                  </div>
-<HoverCurriculum />
-                  </div>
-                  {/* <div className="px-5 md:px-10">
+              <div className="w-full ">
+                <HomeHero />
+              </div>
+              <div className="w-full">
+                <HeroDown />
+              </div>
+              <CollegeLead />
+              <div className="bg-[#F0FBFF] pt-16">
+                <MissionStatement />
+                <div className="px-5">
+                  <CollegeDocumentary />
+                </div>
+                <div className="py-4 bg-white w-full"></div>
+                <div className="">
+                  <Latest />
+                </div>
+                <HoverCurriculum />
+              </div>
+              {/* <div className="px-5 md:px-10">
                     <HomeAbout />
                   </div> */}
-              
 
-                  <div className="">
-                   
-                    <CollegeLead />
-                  </div>
-                  <div className="">
-                    <Footer />
-                  </div>
-                </div>
-          
+              <div className="">
+                <CollegeLead />
+              </div>
+              <div className="">
+                <Footer />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -55,26 +55,25 @@ const HomeHero = () => {
                 src={house}
                 alt="/"
               />
-              <div className="overlay absolute inset-0 bg-[#61CE70] opacity-40"></div>
+              <div className="overlay absolute inset-0 bg-[#283f68] opacity-40"></div>
             </div>
             <div className="flex relative z-20 h-full w-full items-center ">
               <div className="md:pl-20 pl-5 pb-20 w-full">
                 <div className="flex gap-[40px] w-full text-center justify-center items-center">
                   <div className=" w-full">
                     <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">
-                      Nigerian Army Intelligence School-Tego Barracks, Apapa,
-                      Lagos
+                      Nigerian Army Intelligence School
                     </h2>
 
                     <div className=" w-full mt-6 ">
                       {/* <div className="flex text-center items-center  justify-center"> */}
                     {/* </div> */}
                     {/* <div className="flex justify-center text-center items-center text-white py-[1px] max-w-[200px] bg-white"></div> */}
-                      <div className="flex justify-center">
+                      <div className="flex justify-center gap-2">
                         
-                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">KNOWLEDGE</h2>
-                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600] border-x">DEDICATION</h2>
-                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[26px] md:text-[35px] font-[600]">SERVICE</h2>
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[20px] md:text-[35px] font-[600]">KNOWLEDGE</h2>
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[20px] md:text-[35px] font-[600] border-x">DEDICATION</h2>
+                        <h2 className="text-white leading-[33px] md:leading-[45px] text-[20px] md:text-[35px] font-[600]">SERVICE</h2>
 
                       </div>
                       {/* <a

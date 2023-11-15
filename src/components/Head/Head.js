@@ -4,7 +4,7 @@ import { RiArrowDropDownLine, RiArrowUpSLine } from "react-icons/ri";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSun } from "react-icons/bi";
-import logo from "../../assets/WhatsApp Image 2023-10-07 at 13.05.29.jpeg";
+import logo from "../../assets/WhatsApp Image 2023-11-14 at 13.21.56.jpeg";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
@@ -27,7 +27,7 @@ const Head = () => {
   return (
     <div className="relative  w-full">
       <div className="md:hidden   w-full block">
-        <div className="bg-white w-full  ">
+        <div className="bg-white w-full px-5 ">
           <div className="flex justify-between w-full items-center py-2">
             <AiOutlineSearch className="w-6 h-6 " />
 
@@ -68,7 +68,7 @@ const Head = () => {
 
       <div className="hidden   w-full md:block">
         <div className="">
-          <div className="bg-[#166432]  w-full">
+          <div className="bg-[#283f68]  w-full">
             {/* <div className=" hidden md:flex w-full border-b items-center justify-end ">
               <div className="flex gap-[25px] items-center  py-[10px] px-[15px] ">
                 <a    target="_blank" href="mailto:hq.nais@army.mil.ng" className="text-[#252525] text-[14px] font-sans">

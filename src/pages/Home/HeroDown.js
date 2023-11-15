@@ -6,14 +6,15 @@ const HeroDown = () => {
     <div>
       <div className="bg-[#F0FBFF]">
         <div className="flex justify-center">
-          <div className="w-full md:max-w-[1000px] ">
-            <div className="bg-[#166432] p-3 mt-3 mb-6 w-full">
-              <div className="flex gap-2">
+          <div className="lg:block hidden w-full lg:max-w-[1000px] max-w-[300px] ">
+            <div className="bg-[#283f68] p-3  mt-3 mb-6 w-full">
+              <div className="grid grid-cols-5 gap-1 lg:gap-2">
                 <img
                   decoding="async"
                   class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/06/Tinubu-1.jpg"
                   alt=""
+                  className="block w-full h-full "
                 />
 
                 <img
@@ -21,9 +22,55 @@ const HeroDown = () => {
                   class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/mohammed_badaru_abubakar-831x1024-1-243x300.jpg"
                   alt=""
+                className="block w-full h-full "
+                />
+                   <img
+                     className=" w-full h-full"
+                 decoding="async" class="ha-slick-img" src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/Gen-CG-Musa.jpeg" alt=""/>
+                
+                    
+                <img 
+                 className="block w-full h-full"
+                  decoding="async" class="ha-slick-img" src="https://awcn.army.mil.ng/wp-content/uploads/2023/08/COAS-243x300.jpg" alt=""/>
+                
+                <img
+                  className="block w-full h-full "
+                  src={com}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className=" block lg:hidden w-full px-5 ">
+            <div className="bg-[#283f68] p-1.5  mt-3 mb-6 w-full">
+              <div className="grid grid-cols-5 gap-1.5 lg:gap-2">
+                <img
+                  decoding="async"
+                  class="ha-slick-img"
+                  src="https://awcn.army.mil.ng/wp-content/uploads/2023/06/Tinubu-1.jpg"
+                  alt=""
+                  // width="50px"
+                  className="block w-full h-full "
+                  // height="100px"
+                />
+
+                <img
+                  decoding="async"
+                  class="ha-slick-img"
+                  src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/mohammed_badaru_abubakar-831x1024-1-243x300.jpg"
+                  alt=""
+                  className="w-full h-full"
+                  // width="50px"
                 />
                 <img
-                  className="md:block hidden w-[300px] h-[300px]"
+                     className=" w-full h-full"
+                 decoding="async" class="ha-slick-img" src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/Gen-CG-Musa.jpeg" alt=""/>
+                
+                <img 
+                 className="block w-full h-full"
+                  decoding="async" class="ha-slick-img" src="https://awcn.army.mil.ng/wp-content/uploads/2023/08/COAS-243x300.jpg" alt=""/>
+                <img
+                  className="block w-full h-full "
                   src={com}
                 />
               </div>
