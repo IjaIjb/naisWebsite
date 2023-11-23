@@ -60,6 +60,9 @@ const Head = () => {
                 <Link to='/commandant' className="text-gray-600  px-[15px] text-[15px]">
                   Commandant
                 </Link>
+                <Link to='/gallery' className="text-gray-600  px-[15px] text-[15px]">
+               Gallery
+                </Link>
         
           </div>
         </ul>
@@ -83,7 +86,9 @@ const Head = () => {
             <div className="md:flex w-full hidden justify-between items-center py-[5px] px-[15px]">
             
               <div className="py-[11px]">
+                <a href="/" >
                 <img className="w-16 h-16" src={logo} alt="/" />
+                </a>
               </div>
               {/* <div className="flex  w-full items-center"> */}
               <div className="flex items-center">
@@ -98,16 +103,16 @@ const Head = () => {
                 </Link>
                 <div className="text-white ">|</div>
                 <Link to='/commandant' className="text-white  py-[10px] px-[15px] text-[15px]">
-                  COMMAND
+                  COMMANDANT
                 </Link>
                 <div className="text-white ">|</div>
                 <div className="text-white  py-[10px] px-[15px] text-[15px]">
                   NEWS
                 </div>
                 <div className="text-white ">|</div>
-                <div className="text-white  py-[10px] px-[15px] text-[15px]">
+                <Link to='/gallery' className="text-white  py-[10px] px-[15px] text-[15px]">
                GALLERY
-                </div>
+                </Link>
                 <div className="text-white ">|</div>
                 <div className="text-white py-[10px] px-[15px] text-[15px]">
                   CONTACT US

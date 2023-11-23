@@ -7,17 +7,18 @@ const Commandant = () => {
   return (
     <div>
           <div className="mx-auto w-full">
+          <Head />
         <div className="h-full w-full md:bg-gray-200">
           <div className="flex w-full h-full justify-center">
             <div className=" w-full md:max-w-[1500px] ">
               <div className="flex ">
                 <div className="w-full">
-                  <Head />
+            
                   <div className='md:px-10'>
 <CommDetails />
                   </div>
 
-                  <div className="md:px-10">
+                  <div className="">
                     <Footer />
                   </div>
                   </div>

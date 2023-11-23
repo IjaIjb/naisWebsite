@@ -3,6 +3,7 @@ import { lazy } from "react";
 const HomePage = lazy(() => import("../pages/Home/Home"));
 const About = lazy(() => import("../pages/About/About"));
 const Commandant = lazy(() => import("../pages/Commandant/Commandant"));
+const Gallery = lazy(() => import("../pages/Gallery/Gallery"));
 
 
 const routes = [
@@ -21,6 +22,10 @@ const routes = [
       {
         path: "/commandant",
         component: Commandant,
+      },
+      {
+        path: "/gallery",
+        component: Gallery,
       },
      
 ];

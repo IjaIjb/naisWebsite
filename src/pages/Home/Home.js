@@ -47,9 +47,9 @@ const Home = () => {
                     <HomeAbout />
                   </div> */}
 
-              <div className="">
+              {/* <div className="">
                 <CollegeLead />
-              </div>
+              </div> */}
               <div className="">
                 <Footer />
               </div>
