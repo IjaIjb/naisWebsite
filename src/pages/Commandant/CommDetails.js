@@ -31,7 +31,7 @@ The Commandant
         </div>
        
     
-        <div className='md:-mt-10'>
+        <div className='md:-mt-5'>
         <h4 className=" text-[#626262] pt-10  text-[16px] font-[600] ">
        MILITARY COURSE ATTENDED/INSTITUTIONS
         </h4>

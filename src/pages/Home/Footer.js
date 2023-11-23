@@ -28,6 +28,11 @@ const Footer = () => {
                       Our Commandant
                     </Link>
                   </div>
+                  <div className="pb-3 text-[#ffffffb3] ">
+                    <Link to="/gallery" className="text-[14px] font-[400]">
+                      Gallery
+                    </Link>
+                  </div>
                   {/* <div className='pb-3 text-[#ffffffb3] '>
 <a href='' className='text-[14px] font-[400]' >Sitemap</a>
 </div> */}

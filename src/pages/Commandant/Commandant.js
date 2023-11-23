@@ -10,21 +10,22 @@ const Commandant = () => {
           <Head />
         <div className="h-full w-full md:bg-gray-200">
           <div className="flex w-full h-full justify-center">
-            <div className=" w-full md:max-w-[1500px] ">
+            <div className=" w-full md:max-w-[1000px] ">
               <div className="flex ">
                 <div className="w-full">
             
-                  <div className='md:px-10'>
+                  <div className=''>
 <CommDetails />
                   </div>
 
+                
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
                   <div className="">
                     <Footer />
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
                   </div>
                   </div>
         

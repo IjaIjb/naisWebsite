@@ -10,37 +10,37 @@ const HeroDown = () => {
             <div className="bg-[#283f68] p-3  mt-3 mb-6 w-full">
               <div className="grid grid-cols-5 gap-1 lg:gap-2">
                 <img
-                  decoding="async"
-                  class="ha-slick-img"
+                  // decoding="async"
+                  // class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/06/Tinubu-1.jpg"
                   alt=""
-                  className="block w-full h-full "
+                  className=" w-full  "
                 />
 
                 <img
-                  decoding="async"
-                  class="ha-slick-img"
+                  // decoding="async"
+                  // class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/mohammed_badaru_abubakar-831x1024-1-243x300.jpg"
                   alt=""
-                  className="block w-full h-full "
+                  className=" w-full h-full "
                 />
                 <img
-                  className="block w-full h-full"
-                  decoding="async"
-                  class="ha-slick-img"
+                  className=" w-full h-full"
+                  // decoding="async"
+                  // class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/09/Gen-CG-Musa.jpeg"
                   alt=""
                 />
 
                 <img
                   className=" w-full h-full"
-                  decoding="async"
-                  class="ha-slick-img"
+                  // decoding="async"
+                  // class="ha-slick-img"
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/08/COAS-243x300.jpg"
                   alt=""
                 />
 
-                <img className="block w-full h-full " src={com} />
+                <img className=" w-full  h-full" src={com} />
               </div>
             </div>
           </div>

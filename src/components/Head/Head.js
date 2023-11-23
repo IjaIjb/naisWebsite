@@ -96,25 +96,28 @@ const Head = () => {
                   Home
                 </Link>
                 <div className="text-white ">|</div> */}
-             
-                <Link to='/about' className="cursor-pointer text-white py-[10px] px-[15px] text-[15px]">
+               <Link to='/' className="cursor-pointer hover:text-[#C75F0A] text-white py-[10px] px-[15px] text-[15px]">
+            HOME
+                </Link>
+                <div className="text-white ">|</div>
+                <Link to='/about' className="cursor-pointer hover:text-[#C75F0A] text-white py-[10px] px-[15px] text-[15px]">
                ABOUT
               
                 </Link>
                 <div className="text-white ">|</div>
-                <Link to='/commandant' className="text-white  py-[10px] px-[15px] text-[15px]">
+                <Link to='/commandant' className="text-white hover:text-[#C75F0A] py-[10px] px-[15px] text-[15px]">
                   COMMANDANT
                 </Link>
                 <div className="text-white ">|</div>
-                <div className="text-white  py-[10px] px-[15px] text-[15px]">
+                <div className="text-white hover:text-[#C75F0A] py-[10px] px-[15px] text-[15px]">
                   NEWS
                 </div>
                 <div className="text-white ">|</div>
-                <Link to='/gallery' className="text-white  py-[10px] px-[15px] text-[15px]">
+                <Link to='/gallery' className="text-white hover:text-[#C75F0A]  py-[10px] px-[15px] text-[15px]">
                GALLERY
                 </Link>
                 <div className="text-white ">|</div>
-                <div className="text-white py-[10px] px-[15px] text-[15px]">
+                <div className="text-white hover:text-[#C75F0A] py-[10px] px-[15px] text-[15px]">
                   CONTACT US
                 </div>
                 <div className="text-white py-[6px] px-[20px] rounded-[30px] bg-[#C75F0A]">
