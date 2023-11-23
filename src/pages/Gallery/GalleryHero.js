@@ -17,6 +17,7 @@ const GalleryHero = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
