@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../../assets/WhatsApp Image 2023-10-07 at 13.05.29.jpeg";
+import logo from "../../assets/WhatsApp Image 2023-11-14 at 13.21.56.jpeg";
+
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import { TfiYoutube } from "react-icons/tfi";

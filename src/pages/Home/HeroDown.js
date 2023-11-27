@@ -93,7 +93,7 @@ const HeroDown = () => {
             scrollamount="5"
             behavior="scroll"
           >
-            Welcome To Nigeria Army Intelligence School. The Nigeria Army
+            Welcome To Nigerian Army Intelligence School. The Nigeria Army
             Intelligence School is the premier Nigerian Army educational
             institution concentrating on operational art, military leadership,
             strategy, and inter-agency cooperation. Call Us: 09121749848, 09042751349
