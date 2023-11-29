@@ -1,5 +1,7 @@
 import React from "react";
 import com from "../../assets/IMG-20230808-WA0000_105656.jpg";
+import com1 from "../../assets/Home/WhatsApp Image 2023-11-27 at 15.01.57.jpeg";
+import com2 from "../../assets/Home/WhatsApp Image 2023-11-27 at 14.57.45.jpeg";
 
 const HeroDown = () => {
   return (
@@ -8,7 +10,7 @@ const HeroDown = () => {
         <div className="flex justify-center">
           <div className="lg:block hidden w-full lg:max-w-[1000px] max-w-[300px] ">
             <div className="bg-[#283f68] p-3  mt-3 mb-6 w-full">
-              <div className="grid grid-cols-5 gap-1 lg:gap-2">
+              <div className="grid grid-cols-7 gap-1 lg:gap-2">
                 <img
                   // decoding="async"
                   // class="ha-slick-img"
@@ -40,6 +42,8 @@ const HeroDown = () => {
                   alt=""
                 />
 
+                <img className=" w-full  h-full" src={com1} />
+                <img className=" w-full  h-full" src={com2} />
                 <img className=" w-full  h-full" src={com} />
               </div>
             </div>
@@ -47,7 +51,7 @@ const HeroDown = () => {
 
           <div className=" block lg:hidden w-full px-5 ">
             <div className="bg-[#283f68] p-1.5  mt-3 mb-6 w-full">
-              <div className="grid grid-cols-5 gap-1.5 lg:gap-2">
+              <div className="grid grid-cols-7 gap-1.5 lg:gap-2">
                 <img
                   decoding="async"
                   class="ha-slick-img"
@@ -81,7 +85,10 @@ const HeroDown = () => {
                   src="https://awcn.army.mil.ng/wp-content/uploads/2023/08/COAS-243x300.jpg"
                   alt=""
                 />
-                <img className="block w-full h-full " src={com} />
+             
+             <img className=" w-full  h-full" src={com1} />
+                <img className=" w-full  h-full" src={com2} />
+                <img className=" w-full  h-full" src={com} />
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import house from "../../assets/IMG-20230826-WA0040_104720.jpg";
+import house from "../../assets/Home/WhatsApp Image 2023-11-27 at 15.19.50.jpeg";
 import house1 from "../../assets/WhatsApp Image 2023-10-01 at 04.48.26.jpeg";
 import house2 from "../../assets/IMG_8035_104918.JPG";
 import house3 from "../../assets/IMG_0924_110021.JPG";
@@ -55,7 +55,7 @@ const HomeHero = () => {
                 src={house}
                 alt="/"
               />
-              <div className="overlay absolute inset-0 bg-[#283f68] opacity-40"></div>
+              <div className="overlay absolute inset-0 bg-[#283f68] opacity-30"></div>
             </div>
             <div className="flex relative z-20 h-full w-full items-center ">
               <div className="md:pl-20 pl-5 pb-20 w-full">
