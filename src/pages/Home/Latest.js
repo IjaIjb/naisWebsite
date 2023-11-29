@@ -119,7 +119,7 @@ const Latest = () => {
                     href=""
                     className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
                   >
-                  Comdt NAIS, STAFF AND STUDENT at EX MUGU 2023
+                  Comdt NAIS, STAFF AND STUDENT at EX MUGU BUGU 2023
                   </a>
                 </div>
               </div>
