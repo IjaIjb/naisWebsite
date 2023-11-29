@@ -54,6 +54,14 @@ import visit4 from "../../assets/gallery/WhatsApp Image 2023-11-22 at 16.46.20 (
 import visit5 from "../../assets/gallery/WhatsApp Image 2023-11-22 at 16.46.20 (1).jpeg";
 // import visit from "../../assets/gallery/WhatsApp Image 2023-11-22 at 16.28.18 (1).jpeg";
 // import cham11 from "../../assets/gallery/WhatsApp Image 2023-11-22 at 16.39.15 (1).jpeg";
+import comdtstad from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.56.19y.jpeg";
+import comdtgift from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.56.19 (1).jpeg";
+import comdtsit from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.56.19y6.jpeg";
+import comdtshake from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.56.18.jpeg";
+import exmugu from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.58.54 (1).jpeg";
+import exmugu1 from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.58.54.jpeg";
+import exmugu2 from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.58.55 (1).jpeg";
+import exmugu3 from "../../assets/Home/WhatsApp Image 2023-11-29 at 21.58.55.jpeg";
 
 const GalleryImages = () => {
   return (
@@ -112,8 +120,20 @@ const GalleryImages = () => {
           <img className="w-full " src={whiteaward2} alt="/" />
         </div>
 
+        <div>
+          <img className="w-full " src={comdtstad}  alt="/" />
+        </div>
+        <div>
+          <img className="w-full " src={comdtgift}  alt="/" />
+        </div>
+        <div>
+          <img className="w-full " src={comdtsit}  alt="/" />
+        </div>
+        <div>
+          <img className="w-full " src={comdtshake}  alt="/" />
+        </div>
      
-
+        
         <div>
           <img className="w-full h-full" src={com} alt="/" />
         </div>
@@ -254,6 +274,20 @@ const GalleryImages = () => {
         <div>
           <img className="w-full" src={cham9} alt="/" />
         </div>
+
+        <div>
+          <img className="w-full" src={exmugu} alt="/" />
+        </div>
+        <div>
+          <img className="w-full" src={exmugu1} alt="/" />
+        </div>
+        <div>
+          <img className="w-full" src={exmugu2} alt="/" />
+        </div>
+        <div>
+          <img className="w-full" src={exmugu3} alt="/" />
+        </div>
+
         <div>
           <img className="w-full" src={cham10} alt="/" />
         </div>

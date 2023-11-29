@@ -4,6 +4,7 @@ const HomePage = lazy(() => import("../pages/Home/Home"));
 const About = lazy(() => import("../pages/About/About"));
 const Commandant = lazy(() => import("../pages/Commandant/Commandant"));
 const Gallery = lazy(() => import("../pages/Gallery/Gallery"));
+const NewsNITDA = lazy(() => import("../pages/News/NewsNITDA"));
 
 
 const routes = [
@@ -26,6 +27,10 @@ const routes = [
       {
         path: "/gallery",
         component: Gallery,
+      },
+      {
+        path: "/news-nitda",
+        component: NewsNITDA,
       },
      
 ];
