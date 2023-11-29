@@ -38,7 +38,7 @@ const Latest = () => {
                   {" "}
                   <a
                     href=""
-                    className="text-[#444444]  text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444]  text-[18px] uppercase font-[600] hover:underline"
                   >
                     Visit of NAF 015 Strategic Intelligence Group, Ikeja to NAIS
                   </a>
@@ -51,7 +51,7 @@ const Latest = () => {
                   {" "}
                   <a
                     href=""
-                    className="text-[#444444]  text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444]  text-[18px] uppercase font-[600] hover:underline"
                   >
                     Pictures from the visit of US SETAF-AF to NAIS
                   </a>
@@ -67,7 +67,7 @@ const Latest = () => {
                 <div className="px-5 flex justify-center text-center">
                   <a
                     href=""
-                    className="text-[#444444] text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
                   >
                     Highlights of NAIS final Ex for Third and Fourth Quarter
                     Courses 2023
@@ -80,7 +80,7 @@ const Latest = () => {
                 <div className="px-5 flex justify-center text-center">
                   <a
                     href=""
-                    className="text-[#444444] text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
                   >
                     Highlights of NAIS Ex Chameleon Skin for Third and Fourth
                     Quarter Courses 2023
@@ -93,7 +93,7 @@ const Latest = () => {
                 <div className="px-5 flex justify-center text-center">
                   <a
                     href=""
-                    className="text-[#444444] text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
                   >
                     Pictures from the visit of AHQ TRADOC NA team to NAIS
                   </a>
@@ -104,7 +104,7 @@ const Latest = () => {
                 <img className="w-full mb-5 rounded-t-lg" src={comdtshake} alt="/" />
                 <div className="px-5 flex justify-center text-center">
                 <Link to='/news-nitda'
-                    className="text-[#444444] text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444] text-[18px] uppercase  font-[600] hover:underline"
                   >
                    COMDT NAIS VISIT TO NATIONAL INFORMATION TECHNOLOGY (NITDA)-ABUJA
                    </Link>
@@ -117,7 +117,7 @@ const Latest = () => {
                 <div className="px-5 flex justify-center text-center">
                   <a
                     href=""
-                    className="text-[#444444] text-[18px]  font-[600] hover:underline"
+                    className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
                   >
                   Comdt NAIS, STAFF AND STUDENT at EX MUGU 2023
                   </a>
