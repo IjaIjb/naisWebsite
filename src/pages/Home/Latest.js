@@ -80,7 +80,7 @@ const Latest = () => {
                 <div className="px-5 flex justify-center text-center">
                   <a
                     href=""
-                    className="text-[#444444] text-[18px] uppercase font-[600] hover:underline"
+                    className="text-[#444444]  selection:text-[18px] uppercase font-[600] hover:underline"
                   >
                     Highlights of NAIS Ex Chameleon Skin for Third and Fourth
                     Quarter Courses 2023
